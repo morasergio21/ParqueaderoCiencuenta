@@ -11,47 +11,18 @@ package vehiculo;
  */
 public class Vehiculo {
     
-        public String marca;
+        String marca;
         private int cilindraje;
         private String modelo;
         private int año;
         
         
-        public void setmarca(){
-            this.marca=marca;
-        }
-
-        public String getMarca() {
-        return marca;
-        }
-        
-        public void setcilindraje(){
-            this.cilindraje=cilindraje;
+        void acelerar(){
             
         }
-
-    public int getCilindraje() {
-        return cilindraje;
-    }
-        
-        public void setmodelo(){
-            this.modelo=modelo;
-        }
-
-    public String getModelo() {
-        return modelo;
-    }
-        
-        public void setaño(){
-            this.año=año;
-            
+        void frenar(){
             
         }
-
-    public int getAño() {
-        return año;
-    }
-        
         
         
 }

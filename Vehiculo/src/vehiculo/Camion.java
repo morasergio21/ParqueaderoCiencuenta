@@ -15,7 +15,7 @@ public class Camion extends Vehiculo{
     void cargar(){
          System.out.println("camion cargando");
     }
-    void desccargar(){
+    void descargar(){
         System.out.println("camion descargando");
     }        
     
